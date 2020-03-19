@@ -1,0 +1,44 @@
+body{
+	background-image:url("imagens/ceu.jpg")
+}
+#cabeçalho{
+	background-image:url("imagens/logo.png");
+	margin-left:230px;
+	min-height:140px;
+    
+}
+#logo{
+	background-image:linear-gradient(to bottom,#87CEFA, #000080);
+	min-height:50px;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+}
+#logo ul a li{
+    list-style:none;
+    display:inline;
+    margin-left:40px;
+    margin-right:50px;
+}
+#logo ul a{
+	text-decoration:none;
+	color:black;
+}
+#logo ul a li:hover{
+	font-size:20px;
+	color:white;
+}
+#menu{
+	background-color:green;
+	min-height:600px;
+}
+#central{
+	background-color:purple;
+	min-height:600px;
+}
+#rodapé{
+	background-image:linear-gradient(to bottom, #87CEFA, #000080);
+	min-height:150px;
+	margin-top:10px;
+	text-align:center;
+}

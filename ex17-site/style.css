@@ -1,0 +1,72 @@
+body{
+	background-image:url("imagens/ceu.jpg")
+}
+#cabeçalho{
+	background-image:url("imagens/logo.png");
+	margin-left:230px;
+	min-height:140px;
+    
+}
+#logo{
+	background-image:linear-gradient(to bottom,#87CEFA, #000080);
+	min-height:50px;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+}
+#logo ul a li{
+    list-style:none;
+    display:inline;
+    margin-left:40px;
+    margin-right:50px;
+}
+#logo ul a{
+	text-decoration:none;
+	color:black;
+}
+#logo ul a li:hover{
+	font-size:20px;
+	color:white;
+}
+#menu{
+	background-image:linear-gradient(to bottom, #87CEFA, #000080);
+	min-height:600px;
+
+}
+#menu ul a{
+	text-decoration:none;
+	list-style:none;
+
+}
+#menu li{
+	color:blue;
+
+}
+#menu li:hover{
+     background-color:white;
+     margin-right:60px;
+
+}
+#menu hr{
+	color:white;
+
+}
+#menu img{
+     height:210px;
+     margin-left:5px;
+
+}
+#menu #img2{
+     height:120px;
+     margin-left:12px;    
+}
+#central{
+	background-image:linear-gradient(to bottom, #87CEFA, #000080 );
+	min-height:600px;
+}
+#rodapé{
+	background-image:linear-gradient(to bottom, white, #87CEFA);
+	min-height:150px;
+	margin-top:10px;
+	text-align:center;
+}

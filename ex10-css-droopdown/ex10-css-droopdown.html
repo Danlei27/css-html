@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<title>Menu</title>
+		<style type="text/css">
+		  .menu ul li{
+		  	background-color: #6da3f9;
+		  	color:white;
+		  	float: left;
+		  	width: 200px;
+		  	height: 40px;
+		  	display: inline-block;
+		  	text-align: center;
+		  	line-height: 40px;
+		  	font-size: 25px;
+		  	position: relative;
+		  }
+		  .menu ul li:hover{
+		  	background-color: #2c69cc;
+		  }
+		  .menu ul{
+		  	padding: 0;
+		  }
+		  .menu ul ul{
+		  	display:none;
+		  }
+		  .menu ul li:hover > ul{
+		  	display:block;
+		  }
+		  .menu ul ul ul{
+		  	margin-left:202px;
+		  	top: 0px;
+		  	position: absolute;
+		  }
+		  .menu ul ul li:hover{
+		  	background-color: #144aa0;
+		  }
+		  .menu ul ul ul li:hover{
+		  	background-color: #062a66;
+		  }
+		  .menu a{
+		  	color: white;
+		  	text-decoration: none;
+		  }
+	    </style>
+	</head>
+	<body>
+		<nav class="menu">
+			<ul>
+				<a href="argentina.html"><li>Argentina</li>
+				</a>
+				<a href="brasil.html"><li>Brasil
+					<ul>
+						<a href="norte.html"><li>Norte</li></a>
+						<li>Nordeste
+							<ul>
+								<a href="bahia.html"><li>Bahia</li></a>
+								<li>Pernambuco</li>
+								<li>Sergipe</li>
+								<li>Alagoas</li>
+							</ul>
+						</li></a>
+						<li>Centro-Oeste</li>
+						<li>Sul</li>
+						<li>Sudeste
+							<ul>
+								<li>Minas Gerais</li>
+								<li>Espirito Santo</li>
+								<li>São Paulo</li>
+								<li>Rio de Janeiro</li>
+							</ul>
+						</li>
+
+					</ul>
+				</li>
+				<li>Colombia</li>
+				<li>Paraguai</li>
+			</ul>
+		</nav>
+	</body>
+</html>
+
+
+
+<!--
+    color:white;            #colorir a fonte
+	display: inline-block;  #tirar as bolinhas da lista
+	line-height: 40px;      #alinhar o texto na vertical
+    text-align: center;     #alinhar o texto de formal central
+    font-size: 25px;        #Ampliar o texto 
+    background-color:blue;  #cor de fundo
+    :hover                  #deixar o texto marcado quando passar o cursor do mause
+    padding: 0;             #alinhar a lista, onde ela deve descer
+    display:none;           #vai ocultar o menu
+------------------------------------------------------------------------------------                     
+.menu ul li:hover > ul{     #vai ir no menu acessar ul li, hover vai ser direcionado
+	   display:block;       #com ">" para ul
+      }
+-------------------------------------------------------------------------------------
+.menu ul ul ul{             #vai colocar os menus por lado    
+	  	margin-left:202px;
+	  }
+-------------------------------------------------------------------------------------
+position: relative;         #vai fazer fazer uma sobreposicão dos menus, fazendo 
+top: 0px;                   #acessar um, atravez do outro
+position: absolute;
+------------------------------------------------------------------------------------.menu a{
+		  color: white;    #mudar cor dos links
+		}
+-----------------------------------------------------------------------------------
+text-decoration: none;     #tira o sublinhado do texto do link
+--> 

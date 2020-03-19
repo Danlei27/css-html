@@ -1,0 +1,21 @@
+#logo{
+	background-color:red;
+	height:150px;
+}
+
+#frase{
+	background-color:gray;
+	height:150px;
+}
+
+#central{
+	background-color:blue;
+	height:600px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+#footer{
+	background-color:green;
+	height:150px;
+}
